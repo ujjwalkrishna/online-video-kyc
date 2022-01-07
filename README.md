@@ -4,7 +4,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/ujjwalkrishna/online-video-kyc>
+  <a href="https://github.com/ujjwalkrishna/online-video-kyc">
     <img src="frontend/public/android-chrome-512x512.png" alt="Logo" width="80" height="80">
   </a>
 
