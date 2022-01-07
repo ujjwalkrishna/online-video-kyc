@@ -4,7 +4,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/ujjwalkrishna/online-video-kyc>
     <img src="frontend/public/android-chrome-512x512.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -50,8 +50,8 @@
 ## About The Project
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="frontend\src\assets\images\popup.png" alt="Journey Map Diagram" width="1920" height="982">
+  <a href="https://github.com/ujjwalkrishna/online-video-kyc">
+    <img src="frontend\src\assets\images\github_home_image.png" alt="Journey Map Diagram" width="712" height="426">
   </a>
 </div>
 <br />
@@ -65,7 +65,7 @@ documents during video call.
 ### Journey Map Diagram
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/ujjwalkrishna/online-video-kyc">
     <img src="frontend\src\assets\images\journey_map_diagram.png" alt="Journey Map Diagram" width="700" height="450">
   </a>
 </div>
@@ -74,7 +74,7 @@ documents during video call.
 ### Built With
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/ujjwalkrishna/online-video-kyc">
     <img src="frontend\src\assets\images\tech_stack.png" alt="Journey Map Diagram" width="500" height="356">
   </a>
 </div>
@@ -122,7 +122,7 @@ To get a local copy up and running follow these simple example steps.
 1. Get Google Maps API Key from here: [https://developers.google.com/maps/documentation/javascript/get-api-key](https://developers.google.com/maps/documentation/javascript/get-api-key)
 2. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/ujjwalkrishna/online-video-kyc
    ```
 3. Install NPM packages
    ```sh
@@ -142,6 +142,6 @@ To get a local copy up and running follow these simple example steps.
 
 Krishna Ujjwal - [@linkedin_ujjwalkrishn48](https://www.linkedin.com/in/ujjwalkrishna48/) - ujjwalkrishna48@gmail.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/ujjwalkrishna/online-video-kyc](https://github.com/ujjwalkrishna/online-video-kyc)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
