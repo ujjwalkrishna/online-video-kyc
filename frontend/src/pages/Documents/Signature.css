@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Roboto&display=swap');
+
+
+.panDetailsLable{
+    display: inline;
+    margin-right: 2%;
+    color: #090249;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1vw;
+}
+#signInstruction{
+    margin-right: 15%;
+    margin-top: 3%;
+    color: #090249;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 550;
+    font-size: 1vw;
+}
+.panDetailsInput{
+    display: inline;
+}
+
+.panDetailsDiv{
+    margin-top: 3%;
+}
+.uploadPandiv{
+    margin-top: 8%;
+    display: flex;
+    flex-direction: row;
+}
+
+.uploadPandivLeftSign{
+    width: 23%;
+   height: 250px;
+  background-color: #FDFCE5;
+    border-style: dotted ;
+    border-color: #b9b7b0;
+margin-left: 35%;
+}
+
+.uploadPandivRight{
+    width: 23%;
+    height: 250px;
+   background-color: #FDFCE5;
+     border-style: dotted ;
+     border-color: #b9b7b0;
+     margin-left: 15%;
+ 
+}
+#panUploadImg{
+    margin-left: 35%;
+    margin-top: 15%;
+}
+.panUploadText_1{
+    color: #090249;
+    font-weight: 600;
+}
+.panUploadText_2{
+    color: #090249;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+#panBtn{
+    background-color: #090249;
+    margin-left: 25%;
+}
+#continueBtnPan{
+    background-color: #0d0446;
+    margin-left: 15%;   
+}
+
+.sign-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropzone-left-sign{
+    min-width: 230px;
+    height: 250px;
+    background-color: #FDFCE5;
+    border-style: dotted ;
+    border-color: #b9b7b0;
+}
+
+#continueBtnSign{
+    background-color: #0d0446;
+    float: right;  
+    margin-top: 9%;
+    margin-right: 10%;
+}
+
+.signConfrimation{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+}
+.signConfrimation > p {
+margin-left: 2%;
+font-size: 1vw;
+margin-right: 8%;
+color: #090249;
+}

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Roboto&display=swap');
+
+.congratulationsHeading{
+    color: #090249;
+    text-align: center;
+    margin-top: 5%;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.dongratulationsDiv{
+    display: flex;
+    flex-direction: row;
+}
+#congoPra{
+    color: #090249;
+    text-align: center;
+    margin-top: 2%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5vw;
+}
+.congoBotdiv{
+    width: 50%;
+}
+#congoBotdivText{
+    width: 60%;
+}
+#congoImg{
+    width: 250px;
+    height: 250px;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.congBotText {
+    margin-top: 15%;
+    margin-left: 10%;
+    color: #090249;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+#startVideoBtn{
+    margin-left: 10%;
+    margin-top: 5%;
+    background-color: #090249;
+}
+
+#startLocVerification{
+    margin-top: 3%;
+    margin-left: 38%;
+    background-color: #090249;
+}

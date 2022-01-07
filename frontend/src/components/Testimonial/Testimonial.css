@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,400;1,500&display=swap');
+
+.topHeadingTestomonial{
+   color: #0A0442;
+   text-align: center;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 600;
+}
+
+#testomonialCards{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4%;
+    margin-left: 2%;
+    margin-bottom: 5%;
+}
+
+.cardTitle{
+    display: inline;
+    margin-left: 2.5%;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+.starImg{
+    display: inline;
+    float: right;
+    width: 80px;
+}
+
+.location{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+}
+
+.location > h1{
+    font-size: 1rem;
+    margin-left: 3%;
+}
+
+.cardText{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5%;
+}
+
+#customer_1_Img{
+    width: 100%;
+    height: 58.9%;
+
+}
+
+#customer_2_Img{
+    width: 100%;
+    height: 58%;
+}
+
+#card_2{
+    margin-left: 1%;
+}
+
+.card_Body{
+    box-shadow: 0px 5px 5px grey;
+}
+
+#commentSection{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+}
+
+#testomonialTextArea{
+    margin-left: 2%;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: 0px 5px 5px grey;
+}
+
+#testomonialBtn{
+    width: 160px;
+    height: 55px;
+    margin-left: 10%;
+    margin-top: 1.5%;
+    background-color: #0A0442;
+    color: #fff;
+    border-radius: 5%;
+}
+/* #customer_1_Img{
+   width: 100%;
+    height: 300px;
+} */
+
+@media only screen and (max-width: 730px) {
+    #testomonialCards{
+        display: flex;
+        flex-direction: column; 
+        margin: 5% 5%; 
+    }
+    .topHeadingTestomonial{
+        font-size: 4vw;
+    }
+}

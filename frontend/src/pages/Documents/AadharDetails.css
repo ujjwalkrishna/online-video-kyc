@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Roboto&display=swap');
+
+.panDetailsLable{
+    display: inline;
+    margin-right: 2%;
+    color: #090249;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1vw;
+}
+.aadhar-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.panDetailsInput{
+    display: inline;
+}
+
+.panDetailsDiv{
+    margin-top: 3%;
+}
+
+.uploadAadhardiv{
+    margin-top: 8%;
+    display: flex;
+    flex-direction: row;
+}
+
+.dropzone-left-aadhar{
+    min-width: 230px;
+    height: 250px;
+    background-color: #FDFCE5;
+    border-style: dotted ;
+    border-color: #b9b7b0;
+}
+
+.dropzone-right-aadhar{
+    min-width:  230px;
+    height: 250px;
+    background-color: #FDFCE5;
+    border-style: dotted ;
+    border-color: #b9b7b0;
+    margin-left: 8%;
+}
+
+#panUploadImg{
+    margin-left: 35%;
+    margin-top: 15%;
+    width: 75px;
+    height: 75px;
+}
+
+.panUploadText_1{
+    color: #090249;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.panUploadText_2{
+    color: #090249;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.panUploadText_3{
+    color: #090249;
+    font-weight: 500;
+    margin-top: 1%;
+    font-size: x-small;
+    margin-bottom: 0.5rem;
+}
+
+#panBtn{
+    background-color: #090249;
+    margin-left: 25%;
+}
+
+#continueBtnAadhar{
+    background-color: #0d0446;
+    margin-left: 15%;   
+}
+
+
+#basicDetailsBottomImg{
+    width: 18%;
+    height: 18%;
+    margin-top: 3%;
+    margin-left: -2%;
+    display: inline;
+}

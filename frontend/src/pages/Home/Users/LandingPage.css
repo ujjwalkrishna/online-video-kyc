@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Roboto&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbarImg{
+    float: right;
+    width: 4%;
+    height: 4%;
+    margin-right: 3%;
+    margin-top: 1%;
+}
+
+.flex-main{
+    display: flex;
+    flex-direction: row;
+}
+.flex-left{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    background-color: #0A0442;
+    height: 85vh;
+}
+.flex-right{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    background-color: #EEEEEE;
+    height: 85vh;
+}
+.topHeading{
+    color:#ffffff;
+    font-size: 3.5rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 11%;
+    margin-top: 18%;
+    font-weight: 100;
+}
+.topImg{
+    width: 100%;
+  height: auto;
+}
+.div_2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3.5%;
+}
+.botImgSection{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 30%;
+}
+.iconsSection{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 30%;
+}
+.botImg{
+    width: 85%;
+    height: 65%;
+    margin-left: 5%;
+    margin-top: -58%;
+}
+
+.botMsg{
+    width: 42%;
+    height: 35%;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    margin-top: -12%;
+    margin-right: 55%;
+    padding: 2px;
+}
+.botMsgText{
+    font-size: 1.4rem;
+    margin-left: 3%;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+.iconsSection{
+    display: flex;
+    flex-direction: row;
+    margin-top: -10%;
+}
+
+.iconFour{
+    height: 100px;
+    width: 100px; 
+    margin-left: 12%; 
+}
+.iconThree{
+    height: 100px;
+    width: 100px; 
+}
+#iconThree{   
+    margin-top: 8%;
+    display: flex;
+    padding-top: 5%;
+    margin-right: 8%;    
+}
+/* .link {
+    text-decoration: none;
+} */
+.iconTwo{
+    height: 100px;
+    width: 100px; 
+    margin-right: 8%;  
+    margin-left: 12%;
+}
+#iconTwo{
+    margin-top: 8%;
+    display: flex;
+    padding-top: 5%;
+}
+
+.iconOne{
+    height: 100px;
+    width: 100px; 
+}
+#iconOne{
+    margin-top: 2%;
+    display: flex;
+    margin-left: 45rem;
+
+}
+#iconText{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10%;
+}
+.iconFourText{
+    margin-left: 62%;
+    font-size: 1vw;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.iconTextOne{
+    font-size: 0.9rem;
+    margin-left: 60.5%;
+}
+
+.iconTextTwo{
+    font-size: 0.9rem;
+    margin-left: 4.5%;
+}
+
+@media screen and (max-width: 750px){
+
+    .navbarImg{
+        width: 12%;
+        height: 12%;
+        margin-top: 2%;
+    }
+    .flex-main{
+        display:flex;
+        flex-direction: column;
+    }
+    .flex-left{
+        width: 100%;
+        height: 50vh;
+    }
+    .flex-right{
+        width: 100%;
+    }
+    .topHeading{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.9rem;
+}
+#iconOne{
+    margin-left: 3.5rem;
+}
+
+.iconTextOne{
+    margin-left: 5rem;
+}
+.iconThree{
+    height: 45px;
+    width: 45px;
+}
+.iconTwo{
+    height: 45px;
+    width: 45px; 
+}
+.iconFour{
+    height: 45px;
+    width: 45px; 
+}
+.iconTextOne{
+    font-size: 8px;
+}
+.iconTextTwo{
+    font-size: 8px;
+}
+.iconsSection{
+    margin-top: 25%;
+}
+}

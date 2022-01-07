@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Roboto&display=swap');
+
+
+.basicDetailsHeading{
+    color: rgb(9, 2, 73);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 2.5vw;
+    margin: 2% 0%;
+}
+.basicPageDiv{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#bs-details{
+    margin: 3% 6px;
+}
+.basicDetailsForm{
+    margin-top: 5%;
+}
+.basicDetailsForm> .label{
+    display: inline;    
+    margin-right: 2%;
+    font-weight: 800;
+    color: #090249;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.basicDetailsForm > .label2{
+    display: inline;    
+    margin-right: 2%;
+    font-weight: 800;
+    color: #090249;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 14%;
+
+
+
+}
+
+.basicDetailsForm > input{
+    display: inline;
+    width: 25%;
+}
+
+#genderFrom{
+    width: 5%;
+}
+#genderFromLable{
+    margin-left: 7%;
+}
+#emailLable{
+    margin-left: 6%;
+}
+#mobilenoLable{
+    margin-left: 12%;
+}
+.addressSection{
+    margin-top: 6%;
+}
+
+#addressLable{
+    display: inline;    
+    margin-right: 2%;
+    font-weight: 800;
+    color: #090249;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#addressInput{
+    display: inline;
+}
+
+#addressInput{
+    width: 50%;
+}
+#OcupationInput{
+    width: 20%;
+}
+#basicDetailsBottomImg{
+    width: 18%;
+    height: 18%;
+    margin-top: 3%;
+    margin-left: -2%;
+    display: inline;
+}
+
+.basicDetailsText{
+display: inline;
+color: #090249;
+font-family: 'Montserrat', sans-serif;
+font-weight: 800;
+font-size: 0.9vw;
+margin-top: 2%;
+font-weight: 800;
+}
+#continueBtn{
+    background-color: #0d0446;
+    margin-left: 35%;
+}
+#continueBtnBasic{
+    background-color: #0d0446;
+float: right;  
+margin-top: 10%;
+margin-right: 9%;
+}
+

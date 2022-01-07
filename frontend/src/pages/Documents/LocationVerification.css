@@ -1,0 +1,14 @@
+#locBottomImg{
+    width: 18%;
+    height: 18%;
+    margin-top: 3%;
+    margin-left: -2%;
+    display: inline;
+}
+
+#continueBtnLoc{
+    background-color: #0d0446;
+    margin-top: 9.5%;
+    margin-right: 10%;
+    float: right;  
+}

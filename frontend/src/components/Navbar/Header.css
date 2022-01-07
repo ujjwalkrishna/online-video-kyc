@@ -1,0 +1,100 @@
+  .header {
+    border-radius: 10px;
+    margin: 10px;
+    height: 10vh;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px 15px;
+    background-color: transparent;
+    width: -webkit-fill-available;
+    position: sticky;
+    top: 10px;
+    z-index: 999;
+    transition: all 800ms ease;
+    background-color: #FDFCE5 !important;
+  }
+  .header.active2 {
+    background-color: #ecf5e9 !important;
+  }
+  .link2 {
+    color: #282846 !important;
+  }
+  .headerLeft {
+    color: #282846;
+    font-size: 15px;
+    font-weight: 200 !important;
+  }
+  .logo {
+    color: #282846;
+    font-size: 20px;
+    font-weight: 600 !important;
+    cursor: pointer;
+  }
+  .headerMiddle {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .link {
+    text-decoration: none;
+    color: #282846;
+  }
+  .link1 {
+    text-decoration: none;
+    text-align: center;
+    width: 200px;
+    border-bottom: 3px solid rgba(255, 255, 255, 0);
+  }
+  .menuItems {
+    color: #282846;
+    font-size: 15px;
+    font-weight: 500 !important;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .menuItems:hover {
+    transform: scaleX(20px);
+  }
+  .avatar {
+    height: 35px !important;
+    width: 35px !important;
+    margin: none !important;
+    cursor: pointer;
+  }
+  .dropdown {
+    width: 156px !important;
+    top: 15px !important;
+    left: -44px !important;
+  }
+  .MuiListItem-button:hover {
+    background-color: rgb(156 181 126 / 7%) !important;
+    color: #282846 !important;
+    border-left: #282846 !important;
+  }
+  .link1:hover {
+    text-decoration: none;
+    text-align: center;
+    width: 200px;
+    border-bottom: 3px solid rgb(49, 49, 49);
+  }
+  
+  .active1 {
+    color: rgb(48, 0, 48) !important;
+    border-radius: 0;
+    text-decoration: none !important;
+    border-bottom: 3px solid rgb(49, 49, 49);
+    transition: all 800ms ease-in-out;
+  }
+  .NavLink2 {
+    text-decoration: none !important;
+    color: rgb(59, 59, 59);
+  }
+  @media screen and (max-width: 960px) {
+    .menuItems {
+      width: 100%;
+    }
+  }
+  

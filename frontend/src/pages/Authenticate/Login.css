@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Roboto&display=swap');
+#loginMainDiv {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+#loginLeftDiv {
+    width: 45%;
+    height: 100%;
+}
+
+#loginRightDiv {
+    width: 55%;
+}
+
+#LoginImg {
+    width: 550px;
+    height: 100%;
+}
+
+#loginLogo {
+    margin-left: 28%;
+    width: 270px;
+    height: 200px;
+    margin-top: -1%;
+}
+
+#customerCheckBoxDiv {
+    display: flex;
+    flex-direction: row;
+    margin-left: 34%;
+}
+
+#customerCheckBoxDiv>p {
+    margin-left: 1%;
+    margin-right: 3%;
+    color: #090249;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+#loginInput {
+    width: 80%;
+    margin-top: 3%;
+    margin-left: 8%;
+    border-radius: 10px;
+}
+
+#remberMeDiv {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+    margin-top: 2%;
+}
+
+#rememberMe {
+    color: grey;
+    margin-left: 1%;
+}
+
+#loginBtnGroup {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 6%;
+}
+
+#loginBtnGroup>Button {
+    background-color: #090249;
+    width: 35%;
+    margin-right: 1%;
+    font-size: 1.5rem;
+}
+
+#loginBtnGroup>img {
+    width: 40%;
+    margin-top: -2%;
+}
+
+#loginBtnGroup>p {
+    margin-top: 1%;
+    color: #090249;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.loginBtnPra {
+    margin-top: 3%;
+}
+
+@media only screen and (max-width: 600px) {
+    #loginLeftDiv {
+        display: none;
+    }
+}

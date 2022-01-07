@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Roboto&display=swap');
+
+
+.panDetailsLable{
+    display: inline;
+    margin-right: 2%;
+    color: #090249;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1vw;
+}
+#signInstruction{
+    margin-right: 15%;
+    margin-top: 3%;
+    color: #090249;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 550;
+    font-size: 1vw;
+}
+
+.panDetailsInput{
+    display: inline;
+}
+
+.panDetailsDiv{
+    margin-top: 3%;
+}
+.uploadPandiv{
+    margin-top: 8%;
+    display: flex;
+    flex-direction: row;
+}
+
+.uploadSigndiv{
+    width: 90%;
+    margin-top: 4%;
+    height: 320px;
+    background-color: #FDFCE5;
+    border-style: dotted ;
+    border-color: #b9b7b0;
+}
+
+
+.uploadSigndiv_1{
+    width: 90%;
+    height: 340px;
+    background-color: #FDFCE5;
+    border-style: dotted ;
+    border-color: #b9b7b0;
+    margin-top: 5%;
+}
+
+.takePhotoDiv {
+    width: 90%;
+    height: 320px;
+    background-color: #FDFCE5;
+    border-style: dotted ;
+    border-color: #b9b7b0;
+    display: flex;
+}
+
+.uploadPandivRight{
+    width: 23%;
+    height: 280px;
+    background-color: #FDFCE5;
+    border-style: dotted ;
+    border-color: #b9b7b0;
+    margin-left: 15%;
+ 
+}
+#panUploadImg{
+    margin-left: 35%;
+    margin-top: 15%;
+}
+.uploadSigndiv >  h1{
+    color: #090249;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2vw;
+    margin-left: 28%;
+    margin-top: 2%;
+
+}
+.uploadSigndiv >  p{
+    color: #090249;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1vw;
+    margin-left: 24%;
+    margin-top: 2%;
+}
+
+.takePhotoDiv >  h1{
+    color: #090249;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2vw;
+    margin-left: 28%;
+    margin-top: 2%;
+
+}
+.takePhotoDiv >  p{
+    color: #090249;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1vw;
+    margin-left: 24%;
+    margin-top: 2%;
+
+
+}
+#CameraImg{
+    width: 100px;
+    height: 100px;
+    margin-left: 40%;
+    margin-top: 1%;
+}
+
+.uploadSigndiv > #signBtn{
+    background-color: #090249;
+    margin-top: 18%;
+    margin-left: -10%;
+    width: 10%;
+}
+
+.photo-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#captureImgInstrution{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1vw;
+    margin-left: 24%;
+    margin-top: 2%;
+}
+.panUploadText_1{
+    color: #090249;
+    font-weight: 600;
+}
+.panUploadText_2{
+    color: #090249;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+#panBtn{
+    background-color: #090249;
+    margin-left: 25%;
+}
+#continueBtnPan{
+    background-color: #0d0446;
+    margin-left: 15%;   
+}
+
+#photoBtn_1{
+    width: 15%;
+    margin-top: 2%;
+    height: 10%;
+   
+    background-color: #090249;
+}
+
+#photoBtnGroup{
+    margin-left: 43%;
+}
+.BtnPhotoVerfication{
+    margin-left: 65%;
+    background-color: #090249;
+    margin-top: 2%;
+}
+#customerImg{
+    width: 250px;
+    height: 220px;
+    margin-left: 37%;
+    margin-top: 5%;
+}
+#continueBtnPhoto{
+    background-color: #0d0446;
+    float: right;  
+    margin-top: 9%;
+    margin-right: 10%;
+}

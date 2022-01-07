@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.summary > h5{
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 6rem;
+    padding-top: 0.2rem;
+}
+.topHeadingProfile{
+    margin-top: 3rem;
+    font-size: x-large;
+    margin-left: 40%;
+}
+.summary > h5{
+    font-weight: 500;
+    margin-top: 2rem;
+}

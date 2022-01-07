@@ -1,0 +1,10 @@
+.footerYear{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #B2B1B9;
+}
+footer {
+    background-color: #FDFCE5 !important;
+    padding: 16px 32px;
+}

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Roboto&display=swap');
+
+#sideNavbar{
+    position: fixed;
+    left: 0;
+    height: 85vh;
+    width: 25%;
+    background-color: #0A0442;
+    color: #fff;
+    border-radius: 10px;
+    margin: 10px;
+    margin-top: 0px
+}
+.SideNavList{
+    padding-top: 5%;
+    text-align: left;
+}
+
+.SideNavList > .link > h1{
+    font-size: 1rem;
+    margin-right: 5%;
+    margin-left: 3%;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 5px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    cursor: pointer;
+}
+
+.active1 > h1 {
+    background-color: #FDFCE5 !important;
+    color: #000 !important;
+    border-radius: 0;
+    text-decoration: none !important;
+    border-bottom: 3px solid rgb(49, 49, 49);
+    transition: all 500ms ease-in-out;
+}
+
